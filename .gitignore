@@ -1,0 +1,37 @@
+# C++ build artifacts
+*.exe
+*.o
+*.obj
+*.out
+build/
+build_err.txt
+
+# Server log (auto-generated at runtime)
+server.log
+
+# Node / React
+node_modules/
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.vite/
+dist/
+.cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Logs
+*.log
+npm-debug.log*
