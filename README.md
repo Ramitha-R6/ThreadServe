@@ -1,7 +1,9 @@
-<h1 align="center">🖥️ C++ Web Server Monitor</h1>
+<h1 align="center">🖥️ ThreadServe</h1>
 
 <p align="center">
   A production-grade, multithreaded HTTP server built from scratch in C++ with a real-time React analytics dashboard.
+  <br/><br/>
+  <a href="https://github.com/Ramitha-R6/ThreadServe">github.com/Ramitha-R6/ThreadServe</a>
 </p>
 
 <p align="center">
@@ -104,8 +106,8 @@ No external frameworks power the backend — pure C++11 with raw OS-level socket
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Ramitha-R6/SDE_project.git
-cd SDE_project
+git clone https://github.com/Ramitha-R6/ThreadServe.git
+cd ThreadServe
 ```
 
 ### 2. Compile & Run the C++ Server
@@ -209,10 +211,12 @@ C++ HTTP Server (port 8080)
 ## 👤 Author
 
 **Ramitha R**  
-[github.com/Ramitha-R6](https://github.com/Ramitha-R6)
+[github.com/Ramitha-R6](https://github.com/Ramitha-R6)  
+[🔗 ThreadServe Repository](https://github.com/Ramitha-R6/ThreadServe)
 
 ---
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+Dashboard Preview : \SDE_project\dashboard
