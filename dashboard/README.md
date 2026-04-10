@@ -1,16 +1,66 @@
-# React + Vite
+# ThreadServe Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, real-time monitoring dashboard for the **ThreadServe** multi-threaded C++ server engine. This dashboard provides deep insights into server health, traffic patterns, and security telemetry with a premium dark-mode interface.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-   **Analytics Display**: Real-time visualization of Requests Per Second (RPS), Latency (Avg, P95, P99), Active Connections, and Worker Thread Pool concurrency.
+-   **Network Toolkit**: Interactive API testing suite for debugging and server interaction.
+-   **Process Traffic Logs**: Live stream of processed traffic logs for immediate visibility into server activity.
+-   **Threat Telemetry**: Integrated security monitoring and threat detection telemetry.
 
-## React Compiler
+## 🖼️ Dashboard Previews
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Overview and Analytics
+![Dashboard Analytics](DashBoard_preview1.png)
+*Real-time metrics and latency distribution*
 
-## Expanding the ESLint configuration
+### Network Toolkit
+![Network Toolkit](DashBoard_preview2.png)
+*API interaction and testing interface*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Traffic Logs
+![Traffic Logs](DashBoard_preview3.png)
+*Live process traffic stream*
+
+### Threat Telemetry
+![Threat Telemetry](DashBoard_preview4.png)
+*Security monitoring and intrusion detection*
+
+## 🛠️ Built With
+
+-   **React 19**: Modern UI component architecture.
+-   **Vite**: Next-generation frontend tooling.
+-   **TailwindCSS**: Utility-first styling for a premium aesthetic.
+-   **Recharts**: Composable charting library for real-time visualization.
+-   **Lucide React**: Clean and consistent iconography.
+
+## 🚦 Getting Started
+
+### Prerequisites
+-   Node.js (latest stable version)
+-   npm or yarn
+
+### Installation
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/Ramitha-R6/ThreadServe.git
+    ```
+2.  Navigate to the dashboard directory:
+    ```bash
+    cd dashboard
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Launch the development server:
+    ```bash
+    npm run dev
+    ```
+
+## 🔐 Security
+The dashboard is secured and requires a valid JWT token from the ThreadServe core engine to access sensitive telemetry data.
+
+---
+Built with ❤️ for High-Performance Computing.

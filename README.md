@@ -1,14 +1,37 @@
+<h1 align="center">🖥️ ThreadServe</h1>
 
-## Preview
+<p align="center">
+  A production-grade, multithreaded HTTP server built from scratch in C++ with a real-time React analytics dashboard.
+  <br/><br/>
+  <a href="https://github.com/Ramitha-R6/ThreadServe">github.com/Ramitha-R6/ThreadServe</a>
+</p>
 
-> Dark-themed real-time dashboard connected live to the C++ core engine.
-
-<!-- Add a screenshot here after uploading: -->
-<!-- ![Dashboard Preview](./assets/dashboard_preview.png) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-11-blue?style=for-the-badge&logo=cplusplus" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
 
 ---
 
-##  Overview
+## 📸 Preview
+
+> A high-performance, real-time analytics dashboard connected live to the C++ core engine.
+
+<p align="center">
+  <img src="dashboard/DashBoard_preview1.png" width="45%" alt="Analytics Overview" />
+  <img src="dashboard/DashBoard_preview2.png" width="45%" alt="Network Toolkit" />
+</p>
+<p align="center">
+  <img src="dashboard/DashBoard_preview3.png" width="45%" alt="Traffic Logs" />
+  <img src="dashboard/DashBoard_preview4.png" width="45%" alt="Threat Telemetry" />
+</p>
+
+---
+
+## 🚀 Overview
 
 This project demonstrates a full-stack systems engineering implementation combining:
 
@@ -20,9 +43,9 @@ No external frameworks power the backend — pure C++11 with raw OS-level socket
 
 ---
 
-##  Features
+## ✨ Features
 
-###  C++ Backend (`server.cpp`)
+### 🔧 C++ Backend (`server.cpp`)
 | Feature | Description |
 |---|---|
 | **Thread Pool** | Fixed worker pool using `std::condition_variable` — zero CPU spin-waiting |
@@ -36,7 +59,7 @@ No external frameworks power the backend — pure C++11 with raw OS-level socket
 | **File Logging** | Persistent `server.log` with `[SLOW]` tagging for requests exceeding 100ms |
 | **CORS Support** | Full preflight `OPTIONS` handling for cross-origin React frontend access |
 
-###  API Endpoints
+### 📡 API Endpoints
 | Method | Endpoint | Description |
 |---|---|---|
 | `GET` | `/health` | Load balancer ping — returns `{"status":"ok"}` |
@@ -45,7 +68,7 @@ No external frameworks power the backend — pure C++11 with raw OS-level socket
 | `GET` | `/security` | Auth failures and rate-limit blocks with timestamps |
 | `POST` | `/login` | Session authentication returning a token |
 
-###  React Dashboard (`/dashboard`)
+### 🎨 React Dashboard (`/dashboard`)
 | Feature | Description |
 |---|---|
 | **Login Portal** | Secure gateway — all routes are blocked until authenticated |
@@ -61,7 +84,7 @@ No external frameworks power the backend — pure C++11 with raw OS-level socket
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 **Backend**
 - C++11
@@ -79,7 +102,7 @@ No external frameworks power the backend — pure C++11 with raw OS-level socket
 
 ---
 
-## Getting Started
+## ⚡ Getting Started
 
 ### Prerequisites
 - Windows OS
@@ -121,7 +144,7 @@ Open **`http://localhost:5173`** in your browser.
 
 ---
 
-##  Load Testing
+## 🔥 Load Testing
 
 A built-in Node.js stress tester is included to push the server under concurrent load:
 
@@ -137,7 +160,7 @@ While the test runs, watch the React Dashboard in real-time:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 SDE_project/
@@ -161,7 +184,7 @@ SDE_project/
 
 ---
 
-## Architecture Highlights
+## 🧠 Architecture Highlights
 
 ```
 Browser (React Dashboard)
@@ -191,7 +214,7 @@ C++ HTTP Server (port 8080)
 
 ---
 
-## Author
+## 👤 Author
 
 **Ramitha R**  
 [github.com/Ramitha-R6](https://github.com/Ramitha-R6)  
@@ -202,4 +225,3 @@ C++ HTTP Server (port 8080)
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-Dashboard Preview : \SDE_project\dashboard
